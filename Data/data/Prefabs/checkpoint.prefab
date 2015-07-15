@@ -1,0 +1,88 @@
+<root>
+  <info createdby="vForge version 2012.1.2.37501" />
+  <header version="0" name="" description="" category="" convertible="True" autosavebinary="False" relativefilenames="False" />
+  <shape class="EntityShape">
+    <property name="ModelFile" value="Models\checkpoint.model" />
+    <property name="CustomMaterialSet" value="&lt;None&gt;" />
+    <property name="EntityClass" value="VisBaseEntity_cl" />
+    <property name="ClassDefinitionTemplate" value="" />
+    <property name="EntityPropertyString" value="" />
+    <property name="NavMeshUsage" value="IncludeInNavMesh" />
+    <property name="VisibleBitmask" value="4294967295" />
+    <property name="FarClipDistance" value="0" />
+    <property name="RenderOrderPriority" value="0" />
+    <property name="CastDynamicShadows" value="False" />
+    <property name="CastStaticShadows" value="False" />
+    <property name="LightInfluenceBitmask" value="1" />
+    <property name="AmbientColor" value="0,0,0,255" />
+    <property name="ShowLightgridWidget" value="False" />
+    <property name="SampleOfsX" value="0" />
+    <property name="SampleOfsY" value="0" />
+    <property name="SampleOfsZ" value="0" />
+    <property name="ObjectKey" value="checkpoint" />
+    <property name="Visible" value="True" />
+    <property name="Position" value="0,0,0" />
+    <property name="Orientation" value="0,0,0" />
+    <property name="Scaling" value="1,1,1" />
+    <property name="TextLabel" value="" />
+    <property name="ShapeName" value="checkpoint" />
+    <property name="UserDataString" value="" />
+    <property name="ExportShape" value="True" />
+    <property name="UniqueID" value="13784206205138239490" />
+    <shape class="TriggerBoxShape">
+      <property name="Enabled" value="True" />
+      <property name="ObserverFlags" value="MainCamera" />
+      <property name="DestroyOnTrigger" value="False" />
+      <property name="TriggerShape" value="Box" />
+      <property name="BoxSizeX" value="148.8117" />
+      <property name="BoxSizeY" value="307.9741" />
+      <property name="BoxSizeZ" value="604.0043" />
+      <property name="Preview3D" value="True" />
+      <property name="Preview2D" value="True" />
+      <property name="PreviewColor" value="160,190,255,255" />
+      <property name="ObjectKey" value="box" />
+      <property name="Visible" value="True" />
+      <property name="Position" value="0.359375,-47,-227.9034" />
+      <property name="Orientation" value="0,0,0" />
+      <property name="Scaling" value="1,1,1" />
+      <property name="TextLabel" value="" />
+      <property name="ShapeName" value="TriggerBox1" />
+      <property name="UserDataString" value="" />
+      <property name="ExportShape" value="True" />
+      <property name="UniqueID" value="13784206205138239491" />
+      <linksource class="LinkSourceTriggerComponent" name="OnCameraEnter" ID="OnCameraEnter" />
+      <linksource class="LinkSourceTriggerComponent" name="OnCameraLeave" ID="OnCameraLeave" />
+      <linksource class="LinkSourceTriggerComponent" name="OnObjectEnter" ID="OnObjectEnter" />
+      <linksource class="LinkSourceTriggerComponent" name="OnObjectLeave" ID="OnObjectLeave" />
+    </shape>
+    <shape class="EntityShape">
+      <property name="ModelFile" value="Models\checkflag.model" />
+      <property name="CustomMaterialSet" value="&lt;None&gt;" />
+      <property name="EntityClass" value="VisBaseEntity_cl" />
+      <property name="ClassDefinitionTemplate" value="" />
+      <property name="EntityPropertyString" value="" />
+      <property name="NavMeshUsage" value="IncludeInNavMesh" />
+      <property name="VisibleBitmask" value="4294967295" />
+      <property name="FarClipDistance" value="0" />
+      <property name="RenderOrderPriority" value="0" />
+      <property name="CastDynamicShadows" value="False" />
+      <property name="CastStaticShadows" value="False" />
+      <property name="LightInfluenceBitmask" value="1" />
+      <property name="AmbientColor" value="0,0,0,255" />
+      <property name="ShowLightgridWidget" value="False" />
+      <property name="SampleOfsX" value="0" />
+      <property name="SampleOfsY" value="0" />
+      <property name="SampleOfsZ" value="0" />
+      <property name="ObjectKey" value="flag" />
+      <property name="Visible" value="True" />
+      <property name="Position" value="-17.93262,0,-125.0644" />
+      <property name="Orientation" value="0,0,0" />
+      <property name="Scaling" value="1,1,1" />
+      <property name="TextLabel" value="" />
+      <property name="ShapeName" value="checkflag" />
+      <property name="UserDataString" value="" />
+      <property name="ExportShape" value="True" />
+      <property name="UniqueID" value="13784206205138239506" />
+    </shape>
+  </shape>
+</root>

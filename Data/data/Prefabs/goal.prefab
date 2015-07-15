@@ -1,0 +1,54 @@
+<root>
+  <info createdby="vForge version 2012.1.2.37501" />
+  <header version="0" name="" description="" category="" convertible="True" autosavebinary="False" relativefilenames="False" />
+  <shape class="ParticleGroupShape">
+    <property name="EffectFile" value="Particles\goal.xml" />
+    <property name="VisibleBitmask" value="4294967295" />
+    <property name="AmbientColor" value="0,0,0,255" />
+    <property name="Paused" value="False" />
+    <property name="Halted" value="False" />
+    <property name="ApplyTimeOfDayLighting" value="False" />
+    <property name="RandomBaseSeed" value="0" />
+    <property name="WindSpeed" value="0,0,2" />
+    <property name="ObjectKey" value="goal" />
+    <property name="Visible" value="True" />
+    <property name="Position" value="5.999512,-4.881237,35.72971" />
+    <property name="Orientation" value="0,-89.99997,1.001791E-05" />
+    <property name="Scaling" value="1,1,1" />
+    <property name="TextLabel" value="" />
+    <property name="ShapeName" value="goal0" />
+    <property name="UserDataString" value="" />
+    <property name="ExportShape" value="True" />
+    <property name="UniqueID" value="16127477955961028631" />
+    <linktarget class="LinkTargetConstraint" name="affected by" ID="ConstraintTarget_1" />
+    <linktarget class="LinkTargetTriggerComponent" name="Pause" ID="Pause" />
+    <linktarget class="LinkTargetTriggerComponent" name="Resume" ID="Resume" />
+    <linktarget class="LinkTargetTriggerComponent" name="Restart" ID="Restart" />
+  </shape>
+  <shape class="TriggerBoxShape">
+    <property name="Enabled" value="True" />
+    <property name="ObserverFlags" value="MainCamera" />
+    <property name="DestroyOnTrigger" value="False" />
+    <property name="TriggerShape" value="Box" />
+    <property name="BoxSizeX" value="150" />
+    <property name="BoxSizeY" value="200" />
+    <property name="BoxSizeZ" value="300" />
+    <property name="Preview3D" value="True" />
+    <property name="Preview2D" value="True" />
+    <property name="PreviewColor" value="160,190,255,255" />
+    <property name="ObjectKey" value="goal" />
+    <property name="Visible" value="True" />
+    <property name="Position" value="2.221924,0,190.814" />
+    <property name="Orientation" value="0,0,0" />
+    <property name="Scaling" value="1,1,1" />
+    <property name="TextLabel" value="" />
+    <property name="ShapeName" value="TriggerBox" />
+    <property name="UserDataString" value="" />
+    <property name="ExportShape" value="True" />
+    <property name="UniqueID" value="16127477955961028632" />
+    <linksource class="LinkSourceTriggerComponent" name="OnCameraEnter" ID="OnCameraEnter" />
+    <linksource class="LinkSourceTriggerComponent" name="OnCameraLeave" ID="OnCameraLeave" />
+    <linksource class="LinkSourceTriggerComponent" name="OnObjectEnter" ID="OnObjectEnter" />
+    <linksource class="LinkSourceTriggerComponent" name="OnObjectLeave" ID="OnObjectLeave" />
+  </shape>
+</root>

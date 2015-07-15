@@ -1,0 +1,48 @@
+# World descriptor file
+# Format is <KEY> <VALUE>
+
+WORLD Saw world
+	WORLDMAP Scenes/emptyblack
+	SCENE Starting up
+		SCENEMAP Scenes/level02
+		FOV 20
+		BGCOLOR 100 100 100
+	SCENE Jump and climb
+		SCENEMAP Scenes/level03
+		FOV 20
+		BGCOLOR 100 100 100
+	SCENE Ceiling man
+		SCENEMAP Scenes/level04
+		FOV 20
+		BGCOLOR 100 100 100
+	SCENE Cannons
+		SCENEMAP Scenes/level05
+		FOV 20
+		BGCOLOR 100 100 100
+	SCENE Platforms
+		SCENEMAP Scenes/level06
+		FOV 20
+		BGCOLOR 100 100 100
+	SCENE Checkpoints
+		SCENEMAP Scenes/level07
+		FOV 20
+		BGCOLOR 100 100 100
+	SCENE More platforms
+		SCENEMAP Scenes/level08_old
+		FOV 20
+		BGCOLOR 100 100 100
+	SCENE More platforms
+		SCENEMAP Scenes/level08
+		FOV 20
+		BGCOLOR 100 100 100
+		BOUNDS 15000
+	SCENE Killer level
+		SCENEMAP Scenes/level01
+		FOV 20
+		BGCOLOR 100 100 100
+WORLD Infernal
+	WORLDMAP Scenes/emptyblack
+	SCENE Let's go to the city
+		SCENEMAP Scenes/level02
+		FOV 20
+		BGCOLOR 100 100 100

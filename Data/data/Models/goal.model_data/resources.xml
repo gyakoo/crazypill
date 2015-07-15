@@ -1,0 +1,10 @@
+<root>
+    <Resources Version="1" Count="6" PathType="Project">
+        <Resource Manager="Animations" Filename="Models\goal.anim" Size="1024" />
+        <Resource Manager="FILE" Filename="Models\goal.model_data\materials.xml" OwnerRes="4" Size="448" />
+        <Resource Manager="Textures" Filename="Textures\bluealpha.png" CustomInt="1,64" Size="5460" />
+        <Resource Manager="EffectLibs" Filename="shaders\BaseShaders.ShaderLib" Size="50472" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models\goal.model" CustomInt="1,2" Size="56" />
+        <Resource Manager="EffectLibs" Filename="shaders\vMaterial.ShaderLib" Size="327952" />
+    </Resources>
+</root>
