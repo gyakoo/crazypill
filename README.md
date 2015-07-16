@@ -1,5 +1,5 @@
 # crazypill
-Binaries for a minimalistic game created using Havok Anarchy engine.
+Binaries for a minimalistic game created using Havok Anarchy engine. https://github.com/projectanarchy
 
 Binary is Bin/bin100dx9x86/CrazyPill.exe
 
